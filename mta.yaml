@@ -26,7 +26,6 @@ modules:
       instances: 1 
       routes: # if not defined, a default route would be auto assigned unless no-route is specified
         - route: ${default-host}.${default-domain}
-        - route: my-custom-host.at.some.domain
       upload-timeout: 180 #seconds
       health-check-type: http #http/port/process
       health-check-http-endpoint: "/index" # the http route pinged
