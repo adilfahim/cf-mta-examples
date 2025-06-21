@@ -21,7 +21,6 @@ modules:
       app-name: my-cf-app 
       memory: 1G 
       disk-quota: 1G
-      port: 8081
       no-route: false 
       no-start: false 
       instances: 1 
