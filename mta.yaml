@@ -18,7 +18,7 @@ modules:
           ]"
     parameters: #ALL paramters are optional and can be deleted- defaults will be taken/detected if non specified. 
       buildpack: staticfile_buildpack
-      app-name: my-cf-app 
+      app-name: my-blog 
       memory: 1G 
       disk-quota: 1G
       no-route: false 
